@@ -1,6 +1,6 @@
 import { UserDB } from "../types";
 import { BaseDatabase } from "./BaseDatabase";
-
+//Faz a busca no banco de dados e devolve para o business o resultado da busca.
 export class UserDatabase extends BaseDatabase {
     public static TABLE_USERS = "users"
 
